@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar"
 import HomePage from './pages/HomePage'
 import ProfilePage from './pages/ProfilePage'
 import LoginPage from './pages/LoginPage'
-import SignUpPage from './pages/SignUPPage'
+import SignUpPage from './pages/SignUpPage'
 import SettingsPage from './pages/SettingsPage'
 import { axiosInstance } from "./lib/axios"
 import { useAuthStore } from "./store/useAuthStore"

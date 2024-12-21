@@ -18,9 +18,6 @@ app.use(cors({
 
 }))
 
-app.get("/",(req,res)=>{
-    res.send("Hello world! ")
-});
 
 app.use("/api/auth",authRoutes);
 app.use("/api/messages",messageRoutes);
